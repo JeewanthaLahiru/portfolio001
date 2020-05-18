@@ -1,12 +1,10 @@
 <div class="navflex">
-  <div id="navbar">
-    <ul>
-      <li><a routerLink="home">Home</a></li>
-      <li><a routerLink="education">Education</a></li>
-      <li>Skills</li>
-      <li>Projects</li>
-      <li>Contact</li>
-    </ul>
+  <div id="myDIV">
+    <a routerLink='home' routerLinkActive="active"><button class="btn">Home</button></a>
+    <a routerLink="education" routerLinkActive="active"><button class="btn">Education</button></a>
+    <a><button class="btn">Skills</button></a>
+    <a><button class="btn">Projects</button></a>
+    <a><button class="btn">Contact</button></a>
   </div>
   <div id="content">
     <router-outlet></router-outlet>
