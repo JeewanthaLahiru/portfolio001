@@ -7,19 +7,35 @@
 }
 
 .profilepic{
-    background-color: blueviolet;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 15em;
+    height: 15em;
     margin: 20px 20px;
     display: block;
     position: relative;
     
 }
 
+.profilePhoto{
+    width: 13em;
+    height: 13em;
+    background-color: darkgray;
+    border-radius: 50%;
+    z-index: 2;
+    margin-top: -1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: 2px 5px 9px #888888;
+    transition: .2s;
+}
+.profilePhoto:hover{
+    box-shadow: 2px 5px 9px white;
+}
+
 .flexbox{
     display: flex;
     flex-direction: row;
+    background-color: #666;
 }
 .bio{
     margin-left: auto;
@@ -47,3 +63,45 @@
     background-color: darkgoldenrod;
     margin: 1vw;
 }
+
+.contact-bar{
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: darkslategray;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 5px 9px #888888;
+    transition: .3s;
+}
+.contact:hover{
+    top: -1em;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+#left-contact{
+    float: left;
+}
+#right-contact{
+    float: right;
+}
+
+
+
+
+
+h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }
