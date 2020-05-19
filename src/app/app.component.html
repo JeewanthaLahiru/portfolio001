@@ -1,10 +1,10 @@
 <div class="navflex">
   <div id="myDIV">
-    <a routerLink='home' routerLinkActive="active"><button class="btn">Home</button></a>
-    <a routerLink="education" routerLinkActive="active"><button class="btn">Education</button></a>
-    <a><button class="btn">Skills</button></a>
-    <a><button class="btn">Projects</button></a>
-    <a><button class="btn">Contact</button></a>
+    <button class="btn" routerLink='home' [routerLinkActive]="['active_css_class']">Home</button>
+    <button class="btn" routerLink="education" [routerLinkActive]="['active_css_class']">Education</button>
+    <button class="btn" routerLink='skills' [routerLinkActive]="['active_css_class']">Skills</button>
+    <button class="btn" routerLink='project' [routerLinkActive]="['active_css_class']">Projects</button>
+    <button class="btn" routerLink='contact' [routerLinkActive]="['active_css_class']">Contact</button>
   </div>
   <div id="content">
     <router-outlet></router-outlet>

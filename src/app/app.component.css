@@ -14,9 +14,6 @@
     background-color: #666;
     color: white;
 }
-.router-link-active{
-    background-color: #666;
-}
 .navflex{
     display: flex;
     flex-direction: row;
@@ -26,7 +23,7 @@
 #content{
     width: 100%;
 }
-
-a.active{
-    color: tomato;
+.active_css_class{
+    background-color: #666;
+    color: white;
 }
