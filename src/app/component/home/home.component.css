@@ -19,20 +19,38 @@
     height: 3.4vw;
     background-color:white;
     margin: 0 1.5vw;
-    border-radius: 2%;
+    border-radius: 50%;
     transition: .4s;
 }
 .square:hover{
     background-color: #c4c4c4;
 }
 .square img{
-    width: 80%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.3vw;
+    margin-top: 0.7vw;
 }
 
+
+/*personal Area*/
+.txtarea{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.txtarea div{
+    width: 100px;
+    padding: 5px 5px;
+}
+.txtarea input{
+    border: none;
+    background-color:#444;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: darkgray;
+}
 
 
 
